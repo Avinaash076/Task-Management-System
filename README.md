@@ -42,7 +42,4 @@ Auth: `POST /api/auth/register`, `POST /api/auth/login`
 Employees: `GET/POST /api/employees`, `PUT/DELETE /api/employees/:id`
 Tasks: `GET/POST /api/tasks`, `PUT/DELETE /api/tasks/:id`
 Reports: `GET /api/reports`
-
-A couple of notes
-
-File uploads and notification delivery are stubbed out for now, just enough to keep the app runnable locally without needing extra infrastructure. The UI is responsive, and forms use proper labels and focus states for accessibility.
+<img width="2100" height="2688" alt="diagram" src="https://github.com/user-attachments/assets/b8894e91-b43c-4d25-a001-447eacc0aa1e" />
