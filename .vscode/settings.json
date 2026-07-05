@@ -1,0 +1,9 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "npm install": true,
+        "/^cd /d/CRUD task/backend ; node -e \"require\\('dotenv'\\)\\.config\\(\\{path: require\\('path'\\)\\.join\\(process\\.cwd\\(\\), '\\.env'\\)\\}\\); console\\.log\\(JSON\\.stringify\\(\\{MAIL_ENABLED: process\\.env\\.MAIL_ENABLED, MAIL_HOST: process\\.env\\.MAIL_HOST, MAIL_PORT: process\\.env\\.MAIL_PORT, MAIL_USERNAME: process\\.env\\.MAIL_USERNAME, MAIL_FROM_ADDRESS: process\\.env\\.MAIL_FROM_ADDRESS\\}, null, 2\\)\\);\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
